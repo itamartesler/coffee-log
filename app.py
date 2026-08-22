@@ -174,7 +174,7 @@ with tab_add:
         st.write("---")
         
         b1, b2, b3 = st.columns(3)
-        brew_method = b1.selectbox("Brew Method", ["V60", "Espresso", "AeroPress", "Chemex", "Cold Brew", "Other"])
+        brew_method = b1.selectbox("Brew Method", ["V60", "DEEP27", "Origami", "Espresso", "AeroPress", "Chemex", "Cold Brew", "Other"])
         grinder = b2.selectbox("Grinder", grinder_options)
         grind_size = b3.text_input("Grind Size (Settings/Clicks)")
         
